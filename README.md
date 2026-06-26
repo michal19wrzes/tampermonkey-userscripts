@@ -8,7 +8,10 @@ Each script is designed to stay plug-and-play: install it directly in Tampermonk
 
 ```text
 tampermonkey-userscripts/
+  assets/
+    port-szczecin-panel.png
   port-szczecin/
+    README.md
     port-szczecin-export-xlsx.user.js
   registry-workflow-sanitized/
     registry-acquired-cards-assistant-auto-record.user.js
@@ -23,6 +26,10 @@ tampermonkey-userscripts/
 ### Port Szczecin
 
 Browser-side export helper for a port dispatch web page. It parses tabular page content, allows selecting ports, and exports structured data to XLSX.
+
+![Port Szczecin userscript panel](assets/port-szczecin-panel.png)
+
+See the dedicated documentation: [`port-szczecin/README.md`](port-szczecin/README.md).
 
 ### Registry workflow sanitized
 
